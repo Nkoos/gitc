@@ -4,6 +4,7 @@ using namespace std;
     int main()
 {
     double num1{},num2{};
+    int end{};
     std::cin >> num1;cout << "\n";
     std::cin >> num2;cout << "\n";
     double num3{pow(num1, 2) * pow(num2, 2)};
